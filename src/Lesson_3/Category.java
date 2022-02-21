@@ -23,4 +23,6 @@ public abstract class Category implements ActionListener {
     }
 
     public abstract void open();
+    //проверка изменений при парсинге в гит
 }
+
