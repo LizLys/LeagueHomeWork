@@ -19,10 +19,9 @@ public abstract class Category implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         System.out.println(iconDescription + name);
-        // прописать открытие мапы, содержащей каталог товаров данной категории
     }
 
     public abstract void open();
-    //проверка изменений при парсинге в гит
+
 }
 

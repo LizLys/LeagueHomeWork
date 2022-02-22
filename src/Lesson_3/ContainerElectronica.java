@@ -18,7 +18,7 @@ public class ContainerElectronica extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         Container container = this.getContentPane();
-        container.setLayout(new GridLayout(1, 2, 100, 20));
+        container.setLayout(new GridLayout(1, 7, 100, 20));
         button1.addActionListener(new BytovayaTechnika());
         button2.addActionListener(new Smartphons());
         button3.addActionListener(new Tv());
