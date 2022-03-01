@@ -21,8 +21,8 @@ public class ButtonSearch extends Category implements ActionListener {
 
         Scanner input = new Scanner(System.in);
         String zapros = input.nextLine();
-        for (int a = 0; a < bytovayaTechnika.array.length; a++) {
-            if (zapros.equals(bytovayaTechnika.array[a])) {
+     for (int a = 0; a < bytovayaTechnika.array.length; a++) {
+        if (zapros.equals(bytovayaTechnika.array[a])) {
                 System.out.println(bytovayaTechnika.array[a]);
                 break;
             } else if (zapros.equals(audio.array[a])) {
@@ -72,6 +72,8 @@ public class ButtonSearch extends Category implements ActionListener {
                 System.out.println("Извините, товар не найден :(");
             }
         }
+
+
     }
 
     public void open() {
