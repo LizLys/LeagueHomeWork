@@ -45,12 +45,11 @@ public class Main {
                     String object4 = console.nextLine();
                     sclad.uchet(object4);
                     break;
-                default:
-                    if (userAction.equals("End")) {
+                case "End":
                         a = true;
-                    } else {
-                        System.out.println("Программа продолжает работать. Введите команду.");
-                    }
+                        break;
+                default:
+                    System.out.println("Вы ввели несуществующую команду, попробуйте еще раз.");
             }
         }
     }
